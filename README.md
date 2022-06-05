@@ -16,13 +16,10 @@ After this course, you will be able to:
 
 Throughout this course, I have been tasked with applying the concepts learned in projects. Here is a preview of some of the projects featured in this course:
 
-- Kevin Weather
-Build fluency in JavaScript fundamentals by practicing variables and printing to the console to create a temperature convertor.
+- Kevin Weather: Build fluency in JavaScript fundamentals by practicing variables and printing to the console to create a temperature convertor.
 
-- Sleep Debt Calculator
-Build fluency in JavaScript fundamentals by practicing variables and printing to the console to create a temperature convertor.
+- Sleep Debt Calculator: Build fluency in JavaScript fundamentals by practicing variables and printing to the console to create a temperature convertor.
 
-- Whale Talk
-Master the art of looping by creating a program that talks like a whale!
+- Whale Talk: Master the art of looping by creating a program that talks like a whale!
 
 
