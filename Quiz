@@ -1,0 +1,46 @@
+1. What is the correct way to call a string’s built-in method?
+
+'codeacademy'.toUpperCase()
+
+2. What is the outcome of the following code snippet? 
+console.log('Hello world');
+
+Hello World is printed to the console
+
+3. What will the following code print to the console?
+let num = 10;
+num *= 3;
+console.log(num); 
+
+30
+
+4. What is the outcome of this statement?
+console.log('hi!'.length);
+
+3 because .length will access the length property of hi! which is 3 characters long.
+
+5. What is string concatenation?
+
+When you join strings together
+
+6. What is the correct way to declare a new variable that you can change?
+
+let myName = 'Sloan';
+
+let is used to declare variables that can be changed.
+
+7. What is the correct way to call the random method on the Math global object?
+
+Math.random()
+
+8. What is string interpolation?
+
+String interpolation is when we insert, or interpolate, variables into strings using template literals.
+
+9. Which of the following is an example of a single line comment?
+
+// Is this a comment?
+
+10. What are variables used for in JavaScript?
+
+For storing or holding data
