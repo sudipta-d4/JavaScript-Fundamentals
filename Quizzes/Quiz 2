@@ -1,0 +1,107 @@
+1. If isHungry equals true, which of the following expressions evaluates to true?
+
+isHungry !==false  because isHungry does not equal false.
+
+2. What will the code block log to the console?
+
+let groceryItem = "apple";
+switch (groceryItem) {
+  case "tomato":
+    console.log("Tomatoes are $0.49");
+    break;
+  case "lime":
+    console.log("Limes are $1.49");
+    break;
+  case "papaya":
+    console.log("Papayas are $1.29");
+    break;
+  default:
+    console.log("Invalid item");
+    break;
+}
+
+invalid item because groceryItem = "apple", it does not match any of the cases, so the default block will run.
+
+3. What will the following code log to the console?
+
+let needTacos = true;
+if (needTacos) {
+    console.log("Finding tacos");
+} else {
+    console.log("Keep on keeping on!");
+}
+
+Finding tacos because needTacos is true, the first block will run.
+
+4. Translate this to JavaScript: Log “Bear!” to console if isFurry is true and weight is over 100 pounds.
+
+if (isFurry && weight > 100) {
+  console.log("Bear!")
+}
+
+Because this only logs “Bear!” if isFurry is true and weight is greater than 100.
+
+5. How would you properly refactor this code block using the ternary operator?
+
+if (walkSignal === 'Walk') {
+    console.log('You may walk!'); 
+} else {   
+    console.log('Do not walk!');
+}
+
+walkSignal ==='Walk' ? console.log('You may walk!') : console.log('Do not walk!') 
+
+6. What will the code block log to the console?
+
+let weather = "spring";
+let clothingChoice = "";
+
+if (weather === "spring") {
+  clothingChoice = "Put on rain boots.";
+} else if (weather === "summer") {
+  clothingChoice = "Make sure to take your sunscreen.";
+} else if (weather === "fall") {
+  clothingChoice = "Wear a light jacket.";
+} else if (weather === 'winter') {
+  clothingChoice = "Wear a heavy coat.";
+} else {
+  console.log('Invalid weather type.');
+};
+console.log(clothingChoice);
+
+Put on rain boots because the weather equals spring, clothingChoice is set to "Put on rain boots."
+
+7. What will the code block log to the console?
+
+let runTime = 35;
+let runDistance = 3.5;
+ 
+if (runTime <= 30 && runDistance > 3.5) {
+  console.log("You're super fast!");
+} else if (runTime >= 30 && runDistance <= 3) {
+  console.log("You're not making your pace!");
+} else if (runTime > 30 || runDistance > 3) {
+  console.log("Nice workout!"); 
+} else {
+  console.log("Keep on running!");
+}
+
+Nice workout because the condition (runTime is greater than 30 OR runDistance is greater than 3) is true.
+
+8. Which of the following variables contains a truthy value?
+
+let varOne = 'false' because non-empty strings are truthy!
+
+9. What is the general purpose of a conditional statement?
+
+Conditional statements evaluate code to true or false
+
+10. To make this statement valid, what operator belongs in the ___ space below?
+
+if (coin ___ "heads") {
+  console.log('coin is heads!');
+} else {
+  console.log('coin is tails...');
+}
+
+=== because the === operator is used to compare values.
